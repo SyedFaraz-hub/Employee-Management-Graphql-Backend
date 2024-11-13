@@ -1,0 +1,19 @@
+docker compose up 
+
+docker ps 
+
+docker exec -it [id] bash
+
+su postgres
+
+psql
+
+\l
+
+\c [database name]
+
+npx prisma migrate dev --name [any description]
+
+\d
+
+\d [model name]
